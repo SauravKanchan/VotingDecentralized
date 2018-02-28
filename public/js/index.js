@@ -177,7 +177,7 @@ let VotingContract = web3.eth.contract([
     }
 ]);
 
-let Voting = VotingContract.at('0x8646674be281d0762c4debaaf393c61b88338bb9');
+let Voting = VotingContract.at('0x0b96d4c37da82acbe2a7c2960cc098b9a310acb9');
 
 console.log(Voting)
 
